@@ -44,16 +44,20 @@
         </dependency>
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <id>aws-codeartifact</id>
-            <url>https://demo-048394383216.d.codeartifact.ap-south-1.amazonaws.com/maven/demo-repository/</url>
-        </repository>
-        <snapshotRepository>
-            <id>aws-codeartifact-snapshots</id>
-            <url>https://demo-048394383216.d.codeartifact.ap-south-1.amazonaws.com/maven/demo-repository/</url>
-        </snapshotRepository>
-    </distributionManagement>
+    <profiles>
+  <profile>
+    <id>demo-demo-repository</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    <repositories>
+      <repository>
+        <id>demo-demo-repository</id>
+        <url>https://demo-048394383216.d.codeartifact.ap-south-1.amazonaws.com/maven/demo-repository/</url>
+      </repository>
+    </repositories>
+  </profile>
+</profiles>
 
     <build>
         <finalName>spring-boot-web</finalName>
