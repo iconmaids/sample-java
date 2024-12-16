@@ -45,23 +45,17 @@
         </dependency>
     </dependencies>
 
-    <profiles>
-        <profile>
+    <!-- AWS CodeArtifact repository configuration -->
+    <distributionManagement>
+        <repository>
             <id>demo-demo-repository</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <repositories>
-                <repository>
-                    <id>demo-demo-repository</id>
-                    <url>https://048394383216.d.codeartifact.ap-south-1.amazonaws.com/maven/demo-repository/</url>
-                </repository>
-            </repositories>
-        </profile>
-    </profiles>
+            <name>demo-demo-repository</name>
+            <url>https://demo-048394383216.d.codeartifact.ap-south-1.amazonaws.com/maven/demo-repository/</url>
+        </repository>
+    </distributionManagement>
 
     <build>
-        <finalName>spring-boot-web</finalName>
+        <finalName>spring-boot-demo</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
