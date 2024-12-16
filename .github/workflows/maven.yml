@@ -36,12 +36,7 @@ jobs:
     - name: Authenticate to AWS CodeArtifact
       id: login
       run: |
-        export CODEARTIFACT_AUTH_TOKEN=$(aws codeartifact get-authorization-token \
-          --domain demo \
-          --domain-owner 048394383216 \
-          --region ap-south-1 \
-          --query authorizationToken \
-          --output text)
+        export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain demo --domain-owner 048394383216 --region ap-south-1 --query authorizationToken --output text`
         echo "token=$CODEARTIFACT_AUTH_TOKEN" >> $GITHUB_ENV
 
     - name: Configure Maven to use AWS CodeArtifact
