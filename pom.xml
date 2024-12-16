@@ -47,11 +47,11 @@
     <distributionManagement>
         <repository>
             <id>aws-codeartifact</id>
-            <url>https://048394383216.d.codeartifact.ap-south-1.amazonaws.com/maven/demo/Demo-repository/</url>
+            <url>https://demo-048394383216.d.codeartifact.ap-south-1.amazonaws.com/npm/demo-repository/</url>
         </repository>
         <snapshotRepository>
             <id>aws-codeartifact-snapshots</id>
-            <url>https://048394383216.d.codeartifact.ap-south-1.amazonaws.com/maven/demo/Demo-repository/</url>
+            <url>https://demo-048394383216.d.codeartifact.ap-south-1.amazonaws.com/npm/demo-repository/</url>
         </snapshotRepository>
     </distributionManagement>
 
