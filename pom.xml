@@ -7,6 +7,7 @@
     <groupId>com.abhishek</groupId>
     <artifactId>spring-boot-demo</artifactId>
     <version>1.0</version>
+    <packaging>jar</packaging>
 
     <name>spring-boot-demo</name>
 
@@ -45,19 +46,19 @@
     </dependencies>
 
     <profiles>
-  <profile>
-    <id>demo-demo-repository</id>
-    <activation>
-      <activeByDefault>true</activeByDefault>
-    </activation>
-    <repositories>
-      <repository>
-        <id>demo-demo-repository</id>
-        <url>https://demo-048394383216.d.codeartifact.ap-south-1.amazonaws.com/maven/demo-repository/</url>
-      </repository>
-    </repositories>
-  </profile>
-</profiles>
+        <profile>
+            <id>demo-demo-repository</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <repositories>
+                <repository>
+                    <id>demo-demo-repository</id>
+                    <url>https://048394383216.d.codeartifact.ap-south-1.amazonaws.com/maven/demo-repository/</url>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
 
     <build>
         <finalName>spring-boot-web</finalName>
