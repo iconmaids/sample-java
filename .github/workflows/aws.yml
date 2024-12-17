@@ -50,7 +50,7 @@ jobs:
               <server>
                 <id>demo-demo-repository</id>
                 <username>aws</username>
-                <password>${CODEARTIFACT_AUTH_TOKEN}</password>
+                <password>eyJ2ZXIiOjEsImlzdSI6MTczNDQxMzY3MCwiZW5jIjoiQTEyOEdDTSIsInRhZyI6Il85a3dLT1hHUkZvOVNuTkw5cTZsclEiLCJleHAiOjE3MzQ0NTY4NzAsImFsZyI6IkExMjhHQ01LVyIsIml2IjoiSnVVbXNCaWIxOTNKS3I0USJ9.Z4qDshA4VC1Fg7hvhjBiYQ.e-AQNKOU-3j_4Ptv.uaBsbWu1cQxfQrKdtNcbTETAiu4hrRU3Ij0Lv37WnDiLdegLunM4wFNxxLgpu3HbVLaO-5XDnUXblyH4zK1D_BF3QaKWtrtin7L54VzWlHXfkYkOV5FwAB9YXg_OeS_tq_UapgHvb9QsYEauJDoAbrhG9JZwFGqS4ms_qBOcHqf-GNF7EgBhlvClqbWZyXAdmy8_JcKd8p7kEH-b1j3DBNwAlB4xMaq3Lh8XpuaqrTDLL1jUdJgDnOkPJUJXlG11GW3WOakVwzOYon9SOA_TBiz_6HHmpUKwiAFKGxgLTqPGMlFYaHc31oN9rAw1-JY8f4UwcAKQsEWRVmn-l97q26FXHPXjUsCSIM1aVMG_6DHccQ6OSDrDeYxfV5rif8clYvBcRfxFWTgxWwXtF5fopeMroyLqu-2mLZ-p30b2a-G0U5IHcYtdO3_s9XbmeuS7eqDFj7K3cd04Daf76z_e25D-NuEgidRy8V07W4WrLnRQ5eMTkkue3-pJ_xnXpIFLMMFSAFXlYuNuUaxdYSf_fFIm4XOY3ebT6fUZ6zXl9ARfmD4ud-sdp66XysKeTWLhHcSY9A__fTQSwziFKtQ41jgH9QwYwp7IMTiLiFd4OXKD10gSzPPBTdSJDKESMPK_oL31e7wfjJC1oTmWsuwlLGOwTYdGKWoH4cKnVGZOXi9S7kJqmx-CiQoO40atc300Qf0RHIu3B5S5UjfXqVLDaU6fXkRpwyph8h8JegirGTvkGkCv57XVnE8VkTwH8fXfDh2emQjIqvLKW2BWSTHH_3PPIhfXSTxDn64zwEFvMVkjtDOXaFhXGiwpC1O7Yl_fuynl3N1gMKUVfyybDneNMN0cQeewM_0peppIbDrJWxEm3Abvaft4dlZRVzh1Mdow6c5o9r-Cdoz6Oe_4xEyUqKT2Tof7gDrNfxkp4F7HD1JmYLLYElHBcq9VdsE0L8WF5gICKgBqG0uZtsX669EDyCigtZ5gahRqOlolDOyN7Onf9cBfEZ_UEw.dAEgKpW_hrkyYBS1eqZnsg</password>
               </server>
             </servers>
             <profiles>
