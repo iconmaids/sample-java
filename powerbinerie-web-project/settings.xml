@@ -1,0 +1,35 @@
+<settings>
+<servers>
+  <server>
+    <id>powerbinarie-Demowebapp</id>
+    <username>aws</username>
+    <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+  </server>
+</servers>
+
+<profiles>
+  <profile>
+    <id>powerbinarie-Demowebapp</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    <repositories>
+      <repository>
+        <id>powerbinarie-Demowebapp</id>
+        <url>https://powerbinarie-891377135127.d.codeartifact.ap-south-1.amazonaws.com/maven/Demowebapp/</url>
+      </repository>
+    </repositories>
+  </profile>
+</profiles>
+
+<mirrors>
+  <mirror>
+    <id>powerbinarie-Demowebapp</id>
+    <name>powerbinarie-Demowebapp</name>
+    <url>https://powerbinarie-891377135127.d.codeartifact.ap-south-1.amazonaws.com/maven/Demowebapp/</url>
+    <mirrorOf>*</mirrorOf>
+  </mirror>
+</mirrors>
+
+
+</settings>
